@@ -3,7 +3,8 @@ import NextHead from 'next/head'
 
 export const title = '『ファクトフルネス』風？日本の事実ニホンザルクイズ'
 export const description = '日本の事実にまつわる12の質問にチャレンジ'
-export const imageUrl = 'https://factquiz-jp.chibicode.com/static/images/og.png'
+export const imageUrl =
+  'https://factquiz-jp.chibicode.com/static/images/og-jp.png'
 
 const Head = () => (
   <NextHead>
