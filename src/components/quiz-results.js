@@ -21,7 +21,10 @@ const QuizResults = ({selectedAnswers}) => (
       <Share2CA />
     </Card>
     {problems.map(
-      ({text, type, choices, answer, explanation, trust}, index) => (
+      (
+        {text, type, choices, answer, explanation, trust, factfulness},
+        index
+      ) => (
         <Card
           key={text}
           backgroundColor={
@@ -47,6 +50,11 @@ const QuizResults = ({selectedAnswers}) => (
                 <p>
                   <strong>解説:</strong> {explanation}
                 </p>
+                {factfulness && (
+                  <p>
+                    <strong>ちなみに:</strong> {factfulness}
+                  </p>
+                )}
                 <p>
                   <strong>データの信頼性:</strong> {trust}
                 </p>
