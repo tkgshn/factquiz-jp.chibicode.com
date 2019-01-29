@@ -44,7 +44,7 @@ export const problems = [
       <>
         「
         <ExternalLink href="https://www.npa.go.jp/hakusyo/h30/honbun/html/u5110000.html">
-          警察白書(2018年・執筆時最新)
+          警察白書(2018年版・執筆時最新)
         </ExternalLink>
         」
         には、2008年〜2017年のあいだに「65歳以上の人口10万人当たり(交通事故)死者数は
@@ -201,7 +201,7 @@ export const problems = [
       <>
         防衛省による 「
         <ExternalLink href="http://www.mod.go.jp/j/publication/wp/wp2018/html/n33203000.html#zuhyo03030201">
-          防衛白書(2018年・執筆時最新)
+          防衛白書(2018年版・執筆時最新)
         </ExternalLink>
         」 によれば、平成元年に全体の3%以下だった女性自衛官は、2017年に
         <strong>6.5%</strong>
@@ -225,7 +225,7 @@ export const problems = [
       <>
         経産省による「
         <ExternalLink href="http://www.enecho.meti.go.jp/about/whitepaper/2018html/2-1-1.html">
-          エネルギー白書(執筆時最新・2018年)
+          エネルギー白書(2018年版・執筆時最新)
         </ExternalLink>
         」によれば、2010年の日本のエネルギー自給率は20.2%だったが、その後原発に頼れなくなり、
         <strong>2012年以降は常に10%以下</strong>になった。2016年の自給率は
@@ -257,7 +257,7 @@ export const problems = [
       <>
         国土交通省による「
         <ExternalLink href="http://www.mlit.go.jp/common/001260951.pdf">
-          観光白書(執筆時最新・2018年版)
+          観光白書(2018年版・執筆時最新)
         </ExternalLink>
         」によると、2010年の訪日外国人旅行者数は<strong>約861万人</strong>
         と、いまの3分の1以下だった。震災が起きた2011年には約622万人に減ったが、2013年に史上初の1000万人突破、2016年に2000万人突破、そして2018年に3000万人を突破した(
@@ -312,7 +312,7 @@ export const problems = [
       <>
         外務省による「
         <ExternalLink href="https://www.mofa.go.jp/mofaj/gaiko/oda/files/000367699.pdf">
-          ODA白書(2017年・執筆時最新)
+          ODA白書(2017年版・執筆時最新)
         </ExternalLink>
         」によれば、2012年〜2016年の政府開発援助(ODA)の
         <strong>対象国は145カ国</strong>
