@@ -32,10 +32,7 @@ const C2A = () => (
       』の冒頭に載っていたチンパンジークイズに感化されて作成したものです。ぜひ元祖チンパンジークイズにもチャレンジしてみてください。
     </p>
     <p>
-      <ExternalLink
-        href="https://factfulness.chibicode.com"
-        css={submitButtonCss}
-      >
+      <ExternalLink href="https://factquiz.chibicode.com" css={submitButtonCss}>
         元祖チンパンジークイズに挑戦
       </ExternalLink>
     </p>
