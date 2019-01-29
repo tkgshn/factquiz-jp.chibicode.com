@@ -7,6 +7,7 @@ import JapanEmoji from './twemoji/1f1ef-1f1f5'
 import Emoji from './emoji'
 import Book from './book'
 import AmazonLink from './amazon-link'
+import ExternalLink from './external-link'
 
 const Intro = () => (
   <>
@@ -49,9 +50,9 @@ const Intro = () => (
       』の冒頭には、世界の事実に関するクイズが載っています。
     </p>
     <p>
-      <a href="https://facquiz.chibicode.com">
+      <ExternalLink href="https://factquiz.chibicode.com">
         このクイズのオンライン版を先日公開したところ
-      </a>
+      </ExternalLink>
       、反響が大きかったので、本書の内容とは関係ない
       <strong>日本の事実に関するクイズを独自に作ってみました</strong>。
     </p>
