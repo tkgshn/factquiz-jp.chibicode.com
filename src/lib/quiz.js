@@ -14,9 +14,9 @@ export const problems = [
     },
     explanation: (
       <>
-        国立社会保障・人口問題研究所が作った執筆時最新の「
+        国立社会保障・人口問題研究所が作った「
         <ExternalLink href="http://www.ipss.go.jp/pp-zenkoku/j/zenkoku2017/pp29_Report3.pdf">
-          日本の将来推計人口(2017年版)
+          日本の将来推計人口(2017年版・執筆時最新)
         </ExternalLink>
         」によると、2019年の65歳以上人口は
         <strong>約3592万人</strong>で、2059年は<strong>約3571万人</strong>
@@ -42,9 +42,9 @@ export const problems = [
     },
     explanation: (
       <>
-        執筆時最新の「
+        「
         <ExternalLink href="https://www.npa.go.jp/hakusyo/h30/honbun/html/u5110000.html">
-          警察白書(2018年)
+          警察白書(2018年・執筆時最新)
         </ExternalLink>
         」
         には、2008年〜2017年のあいだに「65歳以上の人口10万人当たり(交通事故)死者数は
@@ -134,9 +134,9 @@ export const problems = [
     },
     explanation: (
       <>
-        文科省による執筆時最新の「
+        文科省による「
         <ExternalLink href="http://www.mext.go.jp/component/b_menu/other/__icsFiles/afieldfile/2018/12/25/1407449_1.pdf">
-          学校基本調査(2018年版)
+          学校基本調査(2018年版・執筆時最新)
         </ExternalLink>
         」 によれば、大学の博士課程に在籍している人のうち、女性の割合は
         <strong>33.6%</strong>
@@ -162,9 +162,9 @@ export const problems = [
     },
     explanation: (
       <>
-        総務省による執筆時最新の「
+        総務省による「
         <ExternalLink href="http://www.soumu.go.jp/johotsusintokei/whitepaper/ja/h30/html/nd252110.html">
-          情報通信白書(2018年版)
+          情報通信白書(2018年版・執筆時最新)
         </ExternalLink>
         」 によれば、2017年の個人におけるスマートフォンの保有率は
         <strong>60.9%</strong>
@@ -199,9 +199,9 @@ export const problems = [
     },
     explanation: (
       <>
-        防衛省による執筆時最新の 「
+        防衛省による 「
         <ExternalLink href="http://www.mod.go.jp/j/publication/wp/wp2018/html/n33203000.html#zuhyo03030201">
-          2018年版防衛白書
+          防衛白書(2018年・執筆時最新)
         </ExternalLink>
         」 によれば、平成元年に全体の3%以下だった女性自衛官は、2017年に
         <strong>6.5%</strong>
@@ -223,9 +223,9 @@ export const problems = [
     },
     explanation: (
       <>
-        経産省による執筆時最新の「
+        経産省による「
         <ExternalLink href="http://www.enecho.meti.go.jp/about/whitepaper/2018html/2-1-1.html">
-          エネルギー白書(2018年)
+          エネルギー白書(執筆時最新・2018年)
         </ExternalLink>
         」によれば、2010年の日本のエネルギー自給率は20.2%だったが、その後原発に頼れなくなり、
         <strong>2012年以降は常に10%以下</strong>になった。2016年の自給率は
@@ -255,9 +255,9 @@ export const problems = [
     },
     explanation: (
       <>
-        国土交通省による執筆時最新の「
+        国土交通省による「
         <ExternalLink href="http://www.mlit.go.jp/common/001260951.pdf">
-          観光白書(2018年版)
+          観光白書(執筆時最新・2018年版)
         </ExternalLink>
         」によると、2010年の訪日外国人旅行者数は<strong>約861万人</strong>
         と、いまの3分の1以下だった。震災が起きた2011年には約622万人に減ったが、2013年に史上初の1000万人突破、2016年に2000万人突破、そして2018年に3000万人を突破した(
@@ -310,9 +310,9 @@ export const problems = [
     answer: 'c',
     explanation: (
       <>
-        外務省による執筆時最新の「
+        外務省による「
         <ExternalLink href="https://www.mofa.go.jp/mofaj/gaiko/oda/files/000367699.pdf">
-          ODA白書(2017年)
+          ODA白書(2017年・執筆時最新)
         </ExternalLink>
         」によれば、2012年〜2016年の政府開発援助(ODA)の
         <strong>対象国は145カ国</strong>
