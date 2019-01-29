@@ -18,7 +18,7 @@ const QuizProblems = ({setAnswer, selectedAnswers, submit}) => (
       <Intro />
     </Card>
     {problems.map(
-      ({text, choices, type}, index) =>
+      ({text, choices, type, subtext}, index) =>
         selectedAnswers.length >= index && (
           <Card key={text} isLast={selectedAnswers.length === index}>
             <h3
@@ -71,6 +71,11 @@ const QuizProblems = ({setAnswer, selectedAnswers, submit}) => (
                   </ExternalLink>
                   。
                 </p>
+              </>
+            )}
+            {subtext && (
+              <>
+                <p css={quietCss}>{subtext}</p>
               </>
             )}
           </Card>
