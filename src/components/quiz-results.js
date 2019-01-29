@@ -18,9 +18,6 @@ const QuizResults = ({selectedAnswers}) => (
       <ResultsBreakdown selectedAnswers={selectedAnswers} />
     </Card>
     <Card>
-      <C2A />
-    </Card>
-    <Card>
       <Share2CA />
     </Card>
     {problems.map(
@@ -43,8 +40,10 @@ const QuizResults = ({selectedAnswers}) => (
                   <>
                     正解は「<strong>{choices[answer]}</strong>」。
                   </>
-                )}{' '}
-                {explanation}
+                )}
+              </p>
+              <p>
+                <strong>解説:</strong> {explanation}
               </p>
               <p>
                 <strong>データの信頼性:</strong> {trust}
