@@ -5,10 +5,26 @@ import smoothscroll from 'smoothscroll-polyfill'
 import QuizProblems from './quiz-problems'
 import QuizResults from './quiz-results'
 
+const debugAnswers = [
+  'a',
+  'a',
+  'a',
+  'a',
+  'a',
+  'a',
+  'a',
+  'a',
+  'a',
+  'a',
+  'a',
+  'a'
+]
+
 export default class Quiz extends Component {
   state = {
     selectedAnswers: [],
-    submitted: false
+    submitted: false,
+    debug: false
   }
 
   componentDidMount() {
@@ -71,9 +87,9 @@ export default class Quiz extends Component {
   }
 
   render() {
-    const {submitted, selectedAnswers} = this.state
-    return submitted ? (
-      <QuizResults selectedAnswers={selectedAnswers} />
+    const {submitted, selectedAnswers, debug} = this.state
+    return submitted || debug ? (
+      <QuizResults selectedAnswers={debug ? debugAnswers : selectedAnswers} />
     ) : (
       <div
         css={css`
