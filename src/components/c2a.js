@@ -19,7 +19,7 @@ const C2A = () => (
       <Emoji large>
         <MonkeyEmoji />
       </Emoji>{' '}
-      元祖チンパンジークイズもどうぞ{' '}
+      元祖チンパンジークイズもぜひ{' '}
       <Emoji large>
         <MonkeyEmoji />
       </Emoji>
