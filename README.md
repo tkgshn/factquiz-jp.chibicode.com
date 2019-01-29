@@ -1,4 +1,4 @@
-# [『ファクトフルネス』風？日本の事実ニホンザルクイズ](https://factquiz-jp.chibicode.com)
+# [『ファクトフルネス』風？日本の事実が学べるニホンザルクイズ](https://factquiz-jp.chibicode.com)
 
 ### [https://factquiz-jp.chibicode.com](https://factquiz-jp.chibicode.com)
 
