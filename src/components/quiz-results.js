@@ -28,11 +28,7 @@ const QuizResults = ({selectedAnswers}) => (
             answer === selectedAnswers[index] ? '#F4F6FB' : '#FEF1F3'
           }
           footer={
-            <span
-              css={css`
-                font-size: 0.825rem;
-              `}
-            >
+            <div>
               <p>
                 {selectedAnswers[index] === answer ? (
                   <strong>正解！</strong>
@@ -42,13 +38,20 @@ const QuizResults = ({selectedAnswers}) => (
                   </>
                 )}
               </p>
-              <p>
-                <strong>解説:</strong> {explanation}
-              </p>
-              <p>
-                <strong>データの信頼性:</strong> {trust}
-              </p>
-            </span>
+              <div
+                css={css`
+                  font-size: 0.825rem;
+                  color: #777;
+                `}
+              >
+                <p>
+                  <strong>解説:</strong> {explanation}
+                </p>
+                <p>
+                  <strong>データの信頼性:</strong> {trust}
+                </p>
+              </div>
+            </div>
           }
         >
           <h3
