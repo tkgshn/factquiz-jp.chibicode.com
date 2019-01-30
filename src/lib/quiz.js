@@ -242,34 +242,50 @@ export const problems = [
   {
     type: 'エネルギー',
     text:
-      '国が必要な一次エネルギーのうち、自国内で確保できる比率を「エネルギー自給率」といいます。東日本大震災が起きる前の2010年に比べ、2016年の日本のエネルギー自給率はどう変化したでしょう？',
-    short: 'エネルギー自給率',
+      'エネルギー消費量をGDPで割ると、「GDP当たりのエネルギー消費」がわかり、GDPを産出するためにどのくらいのエネルギーが必要かを知ることができます。では、2015年の日本の「GDP当たりのエネルギー消費」は、世界平均と比べてどのくらいでしょう？',
+    short: 'GDP当たりのエネルギー消費',
     choices: {
-      a: '震災前とあまり変わっていない',
-      b: '震災前の75%程度になった',
-      c: '震災前の半分以下になった'
+      a: '世界平均の半分以下',
+      b: '世界平均とあまり変わらない',
+      c: '世界平均の倍以上'
     },
+    subtext: (
+      <>
+        以前はエネルギー自給率についての問題を出していたのですが、
+        <ExternalLink href="https://github.com/chibicode/factquiz-jp.chibicode.com/pull/2">
+          ご指摘
+        </ExternalLink>
+        があったので差し替えました。
+      </>
+    ),
     explanation: (
       <>
         経産省が作成した「
         <ExternalLink href="http://www.enecho.meti.go.jp/about/whitepaper/2018html/2-1-1.html">
           エネルギー白書(2018年版・執筆時最新)
         </ExternalLink>
-        」によれば、2010年の日本のエネルギー自給率は20.2%だったが、その後原発に頼れなくなり、
-        <strong>2012年以降は毎年10%以下</strong>になった。2016年の自給率は
-        <strong>8.3%</strong>。これはOECD諸国で見ても
-        <ExternalLink href="http://www.enecho.meti.go.jp/about/special/johoteikyo/energyissue2018.html">
-          最下位レベル
+        」によれば、2015年の実質GDP当たりのエネルギー消費は世界平均の40%。日本では世界に比べて省エネルギーが進んでいることがわかる。
+      </>
+    ),
+    factfulness: (
+      <>
+        以前はエネルギー自給率についての問題を出していたのですが、
+        <ExternalLink href="https://github.com/chibicode/factquiz-jp.chibicode.com/pull/2">
+          ご指摘
         </ExternalLink>
-        。
+        があったので差し替えた。
       </>
     ),
     trust: (
       <>
-        エネルギー自給率は「エネルギーの国内算出」を「一次エネルギー供給量」で割った数だ。どちらの数字も1990年以降、資源エネルギー庁が「総合エネルギー統計」の中で計算している。誤差は少しはあるだろうが、震災前の半分以下というざっくりとした範囲にはおさまるだろう。
+        一次ソースはIEA「
+        <ExternalLink href="https://www.oecd-ilibrary.org/energy/world-energy-balances-2017_world_energy_bal-2017-en">
+          World Energy Balances 2017 Edition
+        </ExternalLink>
+        ｣だが、有料なので閲覧できなかった。誤差は少しはあるだろうが、世界平均の半分以下というざっくりとした範囲にはおさまるだろう。
       </>
     ),
-    answer: 'c'
+    answer: 'a'
   },
   {
     type: '観光業',
