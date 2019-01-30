@@ -332,15 +332,19 @@ export const problems = [
     },
     subtext: (
       <>
-        「金メダルの数なんかどうでもいい」と思う方もいるかもしれませんが、スポーツ界ではメダル数の数値目標が指定されています。たとえば文部科学省は、
+        「金メダルの数なんかどうでもいい」と思う方もいるかもしれませんが、スポーツ界では金メダル数の数値目標が掲げられています。たとえば文部科学省は、
         <ExternalLink href="http://www.mext.go.jp/component/a_menu/sports/detail/__icsFiles/afieldfile/2012/04/02/1319359_3_1.pdf">
           2012年のスポーツ基本計画において
         </ExternalLink>
-        、「オリンピックの金メダル獲得ランキングについては、夏季大会では５位以上を目標とする」と書いています。もちろんJOCも、2020年のオリンピックに向けて金メダル獲得数の数値目標を
+        、「金メダル獲得5位以上が目標」と書いています。もちろんJOCも、2020年のオリンピックに向けて金メダル獲得数の数値目標を
         <ExternalLink href="https://www.nikkei.com/article/DGXLSSXK20609_05062018000000/">
           公言しています
         </ExternalLink>
-        。
+        。このJOCの目標を、文科省は
+        <ExternalLink href="http://www.mext.go.jp/prev_sports/comp/a_menu/sports/micro_detail/__icsFiles/afieldfile/2017/03/23/1383656_002.pdf">
+          2017年のスポーツ基本計画において
+        </ExternalLink>
+        支持しています。
       </>
     ),
     explanation: (
@@ -355,15 +359,19 @@ export const problems = [
     ),
     factfulness: (
       <>
-        「金メダルの数なんかどうでもいい」と思う方もいるかもしれないが、スポーツ界ではメダル数の数値目標が指定されている。たとえば文部科学省は、
+        「金メダルの数なんかどうでもいい」と思う方もいるかもしれないが、スポーツ界では金メダル数の数値目標が掲げられている。たとえば文部科学省は、
         <ExternalLink href="http://www.mext.go.jp/component/a_menu/sports/detail/__icsFiles/afieldfile/2012/04/02/1319359_3_1.pdf">
           2012年のスポーツ基本計画において
         </ExternalLink>
-        、「オリンピックの金メダル獲得ランキングについては、夏季大会では５位以上を目標とする」と書いている。もちろんJOCも金メダル獲得数の数値目標を
+        、「金メダル獲得5位以上が目標」と書いている。もちろんJOCも、2020年のオリンピックに向けて金メダル獲得数の数値目標を
         <ExternalLink href="https://www.nikkei.com/article/DGXLSSXK20609_05062018000000/">
           公言している
         </ExternalLink>
-        。
+        。このJOCの目標を、文科省は
+        <ExternalLink href="http://www.mext.go.jp/prev_sports/comp/a_menu/sports/micro_detail/__icsFiles/afieldfile/2017/03/23/1383656_002.pdf">
+          2017年のスポーツ基本計画において
+        </ExternalLink>
+        支持している。
       </>
     ),
     trust: <>さすがにメダルの数は疑いようがない。</>,
