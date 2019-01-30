@@ -330,6 +330,19 @@ export const problems = [
       b: '3回',
       c: '6回'
     },
+    subtext: (
+      <>
+        「金メダルの数なんかどうでもいい」と思う方もいるかもしれませんが、スポーツ界ではメダル数の数値目標が指定されています。たとえば文部科学省は、
+        <ExternalLink href="http://www.mext.go.jp/component/a_menu/sports/detail/__icsFiles/afieldfile/2012/04/02/1319359_3_1.pdf">
+          2012年のスポーツ基本計画において
+        </ExternalLink>
+        、「オリンピックの金メダル獲得ランキングについては、夏季大会では５位以上を目標とする」と書いています。もちろんJOCも、2020年のオリンピックに向けて金メダル獲得数の数値目標を
+        <ExternalLink href="https://www.nikkei.com/article/DGXLSSXK20609_05062018000000/">
+          公言しています
+        </ExternalLink>
+        。
+      </>
+    ),
     explanation: (
       <>
         1964年の東京オリンピックで日本は16個の金メダルを獲得した。これより多く日本が金メダルを獲得した大会は無い。ちなみに2004年のアテネオリンピックでも日本は16個の金メダルを獲得した。また、金メダル獲得数の順位でも、1964年の東京オリンピックが3位と過去最高順位だった。(1968年のメキシコシティでも同じく3位だった。){' '}
@@ -338,6 +351,19 @@ export const problems = [
           Wikipediaにわかりやすくまとまっている
         </ExternalLink>
         。いかに1964年の東京オリンピックが日本にとって栄光の大会だったかがわかる。
+      </>
+    ),
+    factfulness: (
+      <>
+        「金メダルの数なんかどうでもいい」と思う方もいるかもしれないが、スポーツ界ではメダル数の数値目標が指定されている。たとえば文部科学省は、
+        <ExternalLink href="http://www.mext.go.jp/component/a_menu/sports/detail/__icsFiles/afieldfile/2012/04/02/1319359_3_1.pdf">
+          2012年のスポーツ基本計画において
+        </ExternalLink>
+        、「オリンピックの金メダル獲得ランキングについては、夏季大会では５位以上を目標とする」と書いている。もちろんJOCも金メダル獲得数の数値目標を
+        <ExternalLink href="https://www.nikkei.com/article/DGXLSSXK20609_05062018000000/">
+          公言している
+        </ExternalLink>
+        。
       </>
     ),
     trust: <>さすがにメダルの数は疑いようがない。</>,
@@ -383,6 +409,7 @@ export const problems = [
       b: '25%',
       c: '40%'
     },
+    subtext: 'これが最終問題です！お疲れ様でした。',
     explanation: (
       <>
         農林水産省が作成した「
