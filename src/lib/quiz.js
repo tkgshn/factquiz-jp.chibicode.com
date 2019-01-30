@@ -251,11 +251,11 @@ export const problems = [
     },
     subtext: (
       <>
-        以前はエネルギー自給率についての問題を出していたのですが、
+        クイズ公開後2時間の間は「エネルギー自給率」についての質問を出していたのですが、
         <ExternalLink href="https://github.com/chibicode/factquiz-jp.chibicode.com/pull/2">
-          ご指摘
+          質問が不適切だとのご指摘
         </ExternalLink>
-        があったので差し替えました。
+        があったのですぐさま差し替えました。
       </>
     ),
     explanation: (
@@ -271,11 +271,11 @@ export const problems = [
     ),
     factfulness: (
       <>
-        以前はエネルギー自給率についての問題を出していたのですが、
+        クイズ公開後2時間の間は「エネルギー自給率」についての質問を出していたのだが、
         <ExternalLink href="https://github.com/chibicode/factquiz-jp.chibicode.com/pull/2">
-          ご指摘
+          質問が不適切だとのご指摘
         </ExternalLink>
-        があったので差し替えた。
+        があったのですぐさま差し替えた。
       </>
     ),
     trust: (
