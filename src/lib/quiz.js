@@ -247,7 +247,7 @@ export const problems = [
     choices: {
       a: '世界平均の半分以下',
       b: '世界平均とあまり変わらない',
-      c: '世界平均の倍以上'
+      c: '世界平均の2倍以上'
     },
     subtext: (
       <>
