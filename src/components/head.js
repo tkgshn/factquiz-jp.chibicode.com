@@ -67,7 +67,7 @@ const Head = () => (
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
 
-        gtag('config', 'UA-32987822-21', { 'anonymize_ip': true });`
+        gtag('config', 'UA-32987822-23', { 'anonymize_ip': true });`
       }}
     />
   </NextHead>
