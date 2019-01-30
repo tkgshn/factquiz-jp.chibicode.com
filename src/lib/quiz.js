@@ -264,7 +264,9 @@ export const problems = [
         <ExternalLink href="http://www.enecho.meti.go.jp/about/whitepaper/2018html/2-1-1.html">
           エネルギー白書(2018年版・執筆時最新)
         </ExternalLink>
-        」によれば、2015年の実質GDP当たりのエネルギー消費は世界平均の40%。日本では世界に比べて省エネルギーが進んでいることがわかる。
+        」によれば、2015年の実質GDP当たりのエネルギー消費は
+        <strong>世界平均の40%</strong>
+        。OECD平均と比べても3分の2だ。日本では世界に比べて省エネルギー化が進んでいることがわかる。
       </>
     ),
     factfulness: (
