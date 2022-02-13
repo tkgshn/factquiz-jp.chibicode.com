@@ -105,9 +105,9 @@ const QuizResults = ({selectedAnswers}) => (
         </Card>
       )
     )}
-    <Card>
+    {/* <Card>
       <C2A />
-    </Card>
+    </Card> */}
     <Card>
       <Share2CA isBottom />
     </Card>
