@@ -9,14 +9,6 @@ const debugAnswers = [
   'a',
   'a',
   'a',
-  'a',
-  'a',
-  'a',
-  'a',
-  'a',
-  'a',
-  'a',
-  'a',
   'a'
 ]
 
@@ -100,7 +92,7 @@ export default class Quiz extends Component {
             submit={this.submit}
           />
         </div>
-        {selectedAnswers.length < 12 && (
+        {selectedAnswers.length < 4 && (
           <div
             css={css`
               text-align: right;
@@ -109,11 +101,11 @@ export default class Quiz extends Component {
               font-size: 0.825rem;
             `}
           >
-            {selectedAnswers.length === 11 ? (
+            {selectedAnswers.length === 3 ? (
               <>これが最後！</>
             ) : (
               <>
-                残り<strong>{11 - selectedAnswers.length}問</strong>
+                残り<strong>{4 - selectedAnswers.length}問</strong>
               </>
             )}
           </div>

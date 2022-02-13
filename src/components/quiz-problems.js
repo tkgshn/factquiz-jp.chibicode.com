@@ -81,7 +81,7 @@ const QuizProblems = ({setAnswer, selectedAnswers, submit}) => (
           </Card>
         )
     )}
-    {selectedAnswers.length === 12 && (
+    {selectedAnswers.length === 4 && (
       <Card isLast>
         <Outro submit={submit} />
       </Card>

@@ -20,11 +20,11 @@ const Intro = () => (
         letter-spacing: -1.5px;
       `}
     >
-      『ファクトフルネス』風？
+      世界を少しインクルーシブにする？
       <br />
-      日本の事実が学べる
+      セミリアルゲーム
       <br />
-      ニホンザルクイズ
+      「インクルーシブワールド」
     </h1>
     <p
       css={css`
@@ -33,7 +33,7 @@ const Intro = () => (
         color: #777;
       `}
     >
-      ファクトフルネス共訳者(上杉)作成
+      Proj-povertyチーム作成
     </p>
     <p
       css={css`
@@ -43,52 +43,24 @@ const Intro = () => (
       <Book />
     </p>
     <p>
-      2019年1月に発売された本『
-      <AmazonLink href="https://amzn.to/2CMacFZ">
-        <strong>FACTFULNESS (ファクトフルネス)</strong>
+    proj-povertyで開発している
+    貧困を可視化する
+      <AmazonLink href="https://yuiseki.github.io/inclusive-chart-vite/#bubble">
+        <strong>インクルーシブチャート</strong>
       </AmazonLink>
-      』の冒頭には、世界の事実に関するクイズが載っています。
+      では、日本中の日の目に当たらない貧困に関する情報がまとめられています。
     </p>
     <p>
-      このクイズのオンライン版を
-      <ExternalLink href="https://factquiz.chibicode.com">
-        先日公開したところ
+      この貧困可視化のテーマで授業を
+      <ExternalLink href="https://codeforjapan.github.io/projpoverty/boukyuukunnren">
+        先日行ったところ
       </ExternalLink>
-      、「これの『日本の事実』バージョンがあれば、やってみたい」という声がありました。
+      、「これのオンラインバージョンがあれば、やってみたい」という声がありました。
     </p>
-    <div
-      css={css`
-        text-align: center;
-        font-size: 2.75rem;
-        margin-bottom: 1rem;
-      `}
-    >
-      <Emoji>
-        <JapanEmoji />
-      </Emoji>{' '}
-      <Emoji>
-        <ThinkEmoji />
-      </Emoji>{' '}
-      <Emoji>
-        <JapanEmoji />
-      </Emoji>
-    </div>
     <p>
       というわけで、
-      <strong>日本の事実に関するクイズ問題を12問、独自に作ってみました</strong>
+      <strong>日本の貧困に関するクイズ問題を4問作ってみました</strong>
       。
-    </p>
-    <p>
-      『ファクトフルネス』の内容と近い質問もあれば、そうでない質問もあります。『ファクトフルネス』のように思い込みを覆す質問よりも、単純に「
-      <strong>日本の基本的なデータについてどれくらい知っているか？</strong>
-      」を問う質問が多いです。トリビアクイズに近いですが、「まだまだ日本のことを知らないなあ」と思ってくださる方がいれば嬉しいです。
-    </p>
-    <p
-      css={css`
-        margin-bottom: 0;
-      `}
-    >
-      クイズはどの質問もA・B・Cの3択です。つまり、仮にニホンザルにこのクイズを出したら、正解率はだいたい「3分の1」になります。
     </p>
     <div
       css={css`
@@ -98,18 +70,18 @@ const Intro = () => (
       `}
     >
       <Emoji>
+        <JapanEmoji />
+      </Emoji>{' '}
+      <Emoji>
         <ThinkEmoji />
       </Emoji>{' '}
       <Emoji>
-        <VsEmoji />
-      </Emoji>{' '}
-      <Emoji>
-        <MonkeyEmoji />
+        <JapanEmoji />
       </Emoji>
     </div>
     <p>
-      クイズは全部で12問。ニホンザルなら、だいたい4問正解します。あなたは
-      <strong>5問以上正解</strong>
+      クイズは全部で4問。ニホンザルなら、だいたい2問正解します。あなたは
+      <strong>2問以上正解</strong>
       し、見事ニホンザルに勝てるでしょうか？ぜひチャレンジしてみてください！
     </p>
   </>

@@ -2,8 +2,8 @@ import React from 'react'
 import NextHead from 'next/head'
 
 export const title =
-  '『ファクトフルネス』風？日本の事実が学べるニホンザルクイズ'
-export const description = '日本の事実にまつわる12の質問にチャレンジ'
+  '世界を少しインクルーシブ（誰も取り残さない状態）にするセミリアルゲーム「インクルーシブワールド」'
+export const description = 'インクルーシブチャートを手がかりに回答してください。'
 export const imageUrl =
   'https://factquiz-jp.chibicode.com/static/images/og-image-jp.png'
 
