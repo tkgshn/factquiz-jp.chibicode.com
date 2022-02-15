@@ -146,7 +146,7 @@ const ResultsIntro = ({score}) => {
         </span>
         」正解！
       </h2>
-      <p css={quietCss}>ニホンザルは平均「4問」正解します</p>
+      <p css={quietCss}>ニホンザルは平均「2問」正解します</p>
     </>
   )
 }
