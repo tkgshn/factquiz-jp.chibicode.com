@@ -24,9 +24,9 @@ const quietCss = css`
 
 const ResultsIntro = ({score}) => {
   let result
-  if (score > 4) {
+  if (score > 2) {
     result = 'win'
-  } else if (score === 4) {
+  } else if (score === 2) {
     result = 'tie'
   } else {
     result = 'lose'
