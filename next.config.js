@@ -2,14 +2,11 @@ const withCSS = require('@zeit/next-css')
 
 const config = withCSS()
 
-module.exports = config
-
 const urlPrefix = process.env.URL_PREFIX ? '/' + process.env.URL_PREFIX : ''
 
 module.exports = {
-  // ...
-  assetPrefix: urlPrefix,
+  ...config,
   basePath: urlPrefix,
+  assetPrefix: urlPrefix,
   trailingSlash: true,
-  // ...
-};
+}

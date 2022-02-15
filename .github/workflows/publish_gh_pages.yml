@@ -18,6 +18,7 @@ jobs:
           node-version: 14.x
       - name: Build page
         run: |
+          export URL_PREFIX=$(echo $GITHUB_REPOSITORY | awk -F/ '{print $2}')
           yarn install
           yarn run build
       - name: Deploy
