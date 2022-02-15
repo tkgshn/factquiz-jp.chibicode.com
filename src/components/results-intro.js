@@ -136,7 +136,7 @@ const ResultsIntro = ({score}) => {
           text-align: center;
         `}
       >
-        12問中「
+        4問中「
         <span
           css={css`
             color: ${colors[result]};
